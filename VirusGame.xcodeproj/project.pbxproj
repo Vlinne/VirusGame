@@ -8,14 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		61B4749429A12F490068A194 /* VirusGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4749329A12F490068A194 /* VirusGameApp.swift */; };
-		61B4749629A12F490068A194 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4749529A12F490068A194 /* ContentView.swift */; };
 		61B4749829A12F4A0068A194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B4749729A12F4A0068A194 /* Assets.xcassets */; };
-		61B4749B29A12F4A0068A194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B4749A29A12F4A0068A194 /* Preview Assets.xcassets */; };
-		61B4749D29A12F4A0068A194 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4749C29A12F4A0068A194 /* Persistence.swift */; };
-		61B474A029A12F4A0068A194 /* VirusGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61B4749E29A12F4A0068A194 /* VirusGame.xcdatamodeld */; };
-		61B474AA29A12F4B0068A194 /* VirusGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B474A929A12F4B0068A194 /* VirusGameTests.swift */; };
-		61B474B429A12F4B0068A194 /* VirusGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B474B329A12F4B0068A194 /* VirusGameUITests.swift */; };
-		61B474B629A12F4B0068A194 /* VirusGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B474B529A12F4B0068A194 /* VirusGameUITestsLaunchTests.swift */; };
+		61D2632229A3A88F000570C9 /* ObjetX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2632129A3A88F000570C9 /* ObjetX.swift */; };
+		61D2632429A3AB3A000570C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2632329A3AB3A000570C9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +33,11 @@
 /* Begin PBXFileReference section */
 		61B4749029A12F490068A194 /* VirusGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B4749329A12F490068A194 /* VirusGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusGameApp.swift; sourceTree = "<group>"; };
-		61B4749529A12F490068A194 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61B4749729A12F4A0068A194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61B4749A29A12F4A0068A194 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		61B4749C29A12F4A0068A194 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		61B4749F29A12F4A0068A194 /* VirusGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirusGame.xcdatamodel; sourceTree = "<group>"; };
 		61B474A529A12F4B0068A194 /* VirusGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirusGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B474A929A12F4B0068A194 /* VirusGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusGameTests.swift; sourceTree = "<group>"; };
 		61B474AF29A12F4B0068A194 /* VirusGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirusGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B474B329A12F4B0068A194 /* VirusGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusGameUITests.swift; sourceTree = "<group>"; };
-		61B474B529A12F4B0068A194 /* VirusGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61D2632129A3A88F000570C9 /* ObjetX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetX.swift; sourceTree = "<group>"; };
+		61D2632329A3AB3A000570C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				61B4749229A12F490068A194 /* VirusGame */,
-				61B474A829A12F4B0068A194 /* VirusGameTests */,
-				61B474B229A12F4B0068A194 /* VirusGameUITests */,
 				61B4749129A12F490068A194 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,39 +86,36 @@
 		61B4749229A12F490068A194 /* VirusGame */ = {
 			isa = PBXGroup;
 			children = (
-				61B4749329A12F490068A194 /* VirusGameApp.swift */,
-				61B4749529A12F490068A194 /* ContentView.swift */,
+				61D2632729A3D12B000570C9 /* App */,
+				61D2632629A3D11F000570C9 /* Models */,
+				61D2632529A3D108000570C9 /* Views */,
 				61B4749729A12F4A0068A194 /* Assets.xcassets */,
-				61B4749C29A12F4A0068A194 /* Persistence.swift */,
-				61B4749E29A12F4A0068A194 /* VirusGame.xcdatamodeld */,
-				61B4749929A12F4A0068A194 /* Preview Content */,
 			);
 			path = VirusGame;
 			sourceTree = "<group>";
 		};
-		61B4749929A12F4A0068A194 /* Preview Content */ = {
+		61D2632529A3D108000570C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				61B4749A29A12F4A0068A194 /* Preview Assets.xcassets */,
+				61D2632329A3AB3A000570C9 /* ContentView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		61B474A829A12F4B0068A194 /* VirusGameTests */ = {
+		61D2632629A3D11F000570C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				61B474A929A12F4B0068A194 /* VirusGameTests.swift */,
+				61D2632129A3A88F000570C9 /* ObjetX.swift */,
 			);
-			path = VirusGameTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		61B474B229A12F4B0068A194 /* VirusGameUITests */ = {
+		61D2632729A3D12B000570C9 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				61B474B329A12F4B0068A194 /* VirusGameUITests.swift */,
-				61B474B529A12F4B0068A194 /* VirusGameUITestsLaunchTests.swift */,
+				61B4749329A12F490068A194 /* VirusGameApp.swift */,
 			);
-			path = VirusGameUITests;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +222,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B4749B29A12F4A0068A194 /* Preview Assets.xcassets in Resources */,
 				61B4749829A12F4A0068A194 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B4749D29A12F4A0068A194 /* Persistence.swift in Sources */,
-				61B474A029A12F4A0068A194 /* VirusGame.xcdatamodeld in Sources */,
-				61B4749629A12F490068A194 /* ContentView.swift in Sources */,
+				61D2632229A3A88F000570C9 /* ObjetX.swift in Sources */,
+				61D2632429A3AB3A000570C9 /* ContentView.swift in Sources */,
 				61B4749429A12F490068A194 /* VirusGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B474AA29A12F4B0068A194 /* VirusGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B474B629A12F4B0068A194 /* VirusGameUITestsLaunchTests.swift in Sources */,
-				61B474B429A12F4B0068A194 /* VirusGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +404,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VirusGame/Preview Content\"";
 				DEVELOPMENT_TEAM = K6CPW5Z67L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -453,7 +432,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VirusGame/Preview Content\"";
 				DEVELOPMENT_TEAM = K6CPW5Z67L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -591,19 +569,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		61B4749E29A12F4A0068A194 /* VirusGame.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				61B4749F29A12F4A0068A194 /* VirusGame.xcdatamodel */,
-			);
-			currentVersion = 61B4749F29A12F4A0068A194 /* VirusGame.xcdatamodel */;
-			path = VirusGame.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 61B4748829A12F490068A194 /* Project object */;
 }
